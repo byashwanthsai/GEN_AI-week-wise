@@ -1,0 +1,12 @@
+-- token economics --
+
+-- before building an AI feature, it helps to estimate how many tokens it may use
+-- tokens sent to the model are input tokens; tokens it replies with are output tokens
+-- the program estimates the cost and checks usage against daily, monthly, RPM, and TPM limits
+-- the .env file holds the values used for the estimate  
+
+-- what i did  
+
+I made a budget planner that estimates token use and cost. I also tested it; all four tests passed. When I doubled the daily requests, the estimated monthly cost doubled too.
+
+Files: budget.py, test_budget.py, requirements.txt, .env
