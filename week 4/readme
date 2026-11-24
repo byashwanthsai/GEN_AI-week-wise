@@ -1,0 +1,17 @@
+week 4
+-- tokenizer comparison --
+
+-- our computers are not capable of understanding human language directly
+-- this is why there exist models which understand or try to interpret human language 
+-- such a model is known as language model
+-- this model converts human language into tokens
+-- in a sentence every word is converted into a token and then token ids are created 
+-- the model processes those ids 
+-- For each sentence the program prints the token pieces, these ids are in vector format which helps the computer to understand
+
+
+-- what i did 
+
+I compared three tokenizers on English, Telugu, and Hindi text. The output showed how each splits text into tokens and counts them.
+
+Files: tokenizer_comparison.py, requirements.txt
