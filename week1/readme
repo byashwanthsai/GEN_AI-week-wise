@@ -1,1 +1,11 @@
 
+-- first LLM API call --
+
+-- I made a Python program that sends a question to an AI model
+-- the program reads the API key from .env and prints the model’s answer  
+
+-- what i did  
+
+I sent a prompt asking the model to explain AI and displayed its response.
+
+Files: main.py, .env, .gitignore, requirements.txt
