@@ -1,0 +1,10 @@
+-- one client, two LLM providers --
+
+-- I made one client that can send a prompt to Gemini or a local Ollama model
+-- I can choose the provider when the program runs  
+
+-- what i did  
+
+I entered a provider and question, then printed the model’s response. I also added a test using a fake provider.
+
+Files: main.py, llm_client.py, test_client.py, .env, requirements.txt
