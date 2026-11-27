@@ -1,0 +1,14 @@
+week 6
+-- llm baseline evaluation --
+
+-- ollama runs the llama3.2 model locally to answer questions
+-- the golden question set contains 30 questions about language models
+-- python checks which expected keywords appear in each answer
+-- the program saves answers, scores, and statuses to a csv file
+-- a score of 60% or higher is marked pass; lower scores are marked review
+
+-- what i did
+
+I ran the first 30-question evaluation and recorded it as Release v0.1. The run had 12 pass, 17 review, and 1 error (Q007), with 48.89% average keyword coverage.
+
+Files: main.py, golden_set.json, requirements.txt, baseline_results.csv
