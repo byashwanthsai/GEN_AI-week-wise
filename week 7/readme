@@ -1,0 +1,15 @@
+week 7
+-- autoregressive text generation --
+
+-- the program splits sample text into lowercase words
+-- it remembers which words appeared after each word
+-- generation starts with "the" and randomly picks a next word
+-- each chosen word becomes the input for the next prediction
+-- generation stops after up to 10 steps or when no next word is found
+-- the output can change each time because the next word is chosen randomly
+
+-- what i did
+
+I created a small word-level example of autoregressive generation using a sample text. It uses Python's built-in random module and does not need extra packages.
+
+Files: autoregression.py
